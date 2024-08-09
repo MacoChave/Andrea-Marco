@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./resources/code_civil.png"
+    />
+    <!-- Primary Meta Tags -->
+    <title>Andrea & Marco</title>
+    <meta name="title" content="Andrea & Marco" />
+    <meta name="description" content="Te invitamos a nuestra boda" />
+    <title>Evento Especial</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-zinc-200 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200">
+    <div class="border__leaf fixed inset-y-0 left-4 w-28 opacity-75"></div>
+    <div class="border__leaf fixed inset-y-0 right-4 w-28 opacity-75"></div>
+    <!-- Header -->
+    <header
+      class="w-full h-screen flex flex-col items-center justify-center gap-4 p-4"
+    >
+      <img
+        class="w-20"
+        src="./resources/code_civil.png"
+        alt="Code civil engineering"
+      />
+      <h1 class="dancing-script-700 text-8xl text-center">Andrea & Marco</h1>
+      <q class="dancing-script-400 text-4xl text-center">
+        Más valen dos que uno, porque obtienen más fruto de su esfuerzo. ¡Ay del
+        que cae y no tiene quien lo levante!
+      </q>
+      <p class="text-sm text-zinc-500">Eclesiastés 4:9-10</p>
+      <p class="font-bold text-xl">08/09/2024</p>
+    </header>
+
+    <!-- Main -->
+    <main class="flex flex-col p-4 gap-20">
+      <!-- Sección 1: Detalle de la Invitación -->
+      <section
+        id="preambulo-invitacion"
+        class="flex flex-col items-center gap-2"
+      >
+        <p>Les invitamos cordialmente a la celebración de</p>
+        <p class="text-4xl dancing-script-400">Nuestra boda</p>
+      </section>
+
+      <section id="fecha-invitacion" class="flex flex-col items-center gap-2">
+        <div>
+          <p class="text-center text-2xl">Domingo</p>
+          <p class="text-center font-bold text-8xl dancing-script-400 text">
+            08
+          </p>
+          <p class="text-center text-2xl">Septiembre</p>
+        </div>
+      </section>
+
+      <section id="lugar-invitacion" class="flex flex-col items-center gap-2">
+        <!-- <img
+          width="94"
+          height="94"
+          src="https://img.icons8.com/3d-fluency/94/church.png"
+          alt="church"
+        /> -->
+        <img
+          width="94"
+          height="94"
+          src="https://img.icons8.com/3d-fluency/94/map-marker--v2.png"
+          alt="map-marker--v2"
+        />
+        <p>Centro Cultural Paseo de los Campeones</p>
+        <p>Hora: <span>11:00 AM</span></p>
+        <p>¿Cómo llegar?</p>
+        <a
+          class="border-2 border-solid border-stone-700 px-4 py-2 m-2 hover:bg-zinc-700 hover:text-zinc-200"
+          href="https://www.google.com.mx/maps/place/Centro+Cultural+Paseo+de+los+Campeones/@14.6552466,-90.5717482,21z/data=!4m6!3m5!1s0x8589a1a8a78cfb89:0x36167cfaf3106e8d!8m2!3d14.6552654!4d-90.571769!16s%2Fg%2F11qpl7_r10?entry=ttu"
+          target="_blank"
+          >Ubicación</a
+        >
+      </section>
+
+      <!-- Sección 2: Indicaciones de la Invitación -->
+      <section
+        id="indicaciones-invitacion"
+        class="flex flex-col items-center justify-center gap-2"
+      >
+        <h2 class="dancing-script-700 text-4xl">Vestimenta</h2>
+        <p>Formal</p>
+      </section>
+
+      <section
+        id="obsequios-invitacion"
+        class="flex flex-col items-center justify-center gap-2"
+      >
+        <img
+          width="94"
+          height="94"
+          src="https://img.icons8.com/3d-fluency/188/money-box.png"
+          alt="money-box"
+        />
+        <p class="text-center">
+          Su asistencia a nuestra boda será regalo suficiente. Pero si desean
+          apoyarnos para comprar nuestra casa, les dejamos los datos de nuestra
+          cuenta bancaria:
+        </p>
+        <p>BANRURAL</p>
+        <p>Cuenta de ahorro:</p>
+        <p>Andrea Susana Casado Fernández - <span>4237131303</span></p>
+      </section>
+
+      <section
+        id="confirmar-invitacion"
+        class="flex flex-col items-center justify-center gap-8"
+      >
+        <p class="dancing-script-700 text-4xl">Confirmar asistencia</p>
+        <div
+          class="flex lg:flex-col md:flex-row gap-4 place-content-center place-items-center"
+        >
+          <img
+            width="60"
+            height="60"
+            src="https://img.icons8.com/emoji/60/person-with-veil.png"
+            alt="person-with-veil"
+          />
+          <a
+            class="bg-green-400 px-4 py-2 m-2 hover:bg-green-600"
+            aria-label="Chat on WhatsApp"
+            href="https://wa.me/50235174023"
+            >WHARSAPP</a
+          >
+          <img
+            width="60"
+            height="60"
+            src="https://img.icons8.com/color/60/groom.png"
+            alt="groom"
+          />
+          <a
+            class="bg-green-400 px-4 py-2 m-2 hover:bg-green-600"
+            aria-label="Chat on WhatsApp"
+            href="https://wa.me/50235468093"
+            >WHARSAPP</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer
+      class="flex flex-col items-center gap-2 py-10 bg-zinc-800 text-zinc-200 h-2/4"
+    >
+      <p>Los mejores momentos de la vida merecen ser compartidos</p>
+      <h3 class="dancing-script-400 text-4xl">¡Gracias por acompañarnos!</h3>
+    </footer>
+  </body>
+</html>
