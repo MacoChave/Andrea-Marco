@@ -47,11 +47,11 @@ body {
   color: #333;
 }
 
-.border__leaf {
-  background-image: url('./resources/leaf.png');
-  background-repeat: repeat-y;
-  background-position: center;
-  z-index: -1;
+.eucalyptus {
+  /* position: absolute;
+  right: 0;
+  top: 0; */
+  transform: rotateZ(-55deg) rotateY(180deg);
 }
 
 @media (prefers-color-scheme: dark) {
