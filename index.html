@@ -37,12 +37,13 @@
 		href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:wght@300;400;500;700&display=swap"
 		rel="stylesheet" />
 	<script src="https://cdn.tailwindcss.com"></script>
+	<script src="./script.js"></script>
 </head>
 
 <body class="bg-gray-50 text-gray-800 dark:bg-zinc-800 dark:text-gray-200 scroll-smoth">
 	<!-- Header -->
-	<header class="w-full flex flex-col items-center justify-center gap-4 p-4 overflow-hidden">
-		<img class="eucalyptus w-2/4 self-end" src="./resources/eucalyptus.webp" alt="eucalyptus">
+	<header class="w-full h-screen flex flex-col items-center justify-center gap-4 p-4 overflow-hidden">
+		<img class="eucalyptus w-60 self-end -m-20" src="./resources/eucalyptus.webp" alt="eucalyptus">
 		<q class="dancing-script-400 text-2xl text-center max-w-screen-sm">
 			Más valen dos que uno, porque obtienen más fruto de su esfuerzo. ¡Ay del
 			que cae y no tiene quien lo levante!
@@ -50,6 +51,7 @@
 		<p class="text-sm opacity-50">Eclesiastés 4:9-10</p>
 		<img class="header__logo w-20" src="./resources/code_civil.svg" alt="Code civil engineering" />
 		<p class="font-bold text-xl">Nuestar boda civil</p>
+		<p id="countdown"></p>
 	</header>
 
 	<!-- Main -->
@@ -57,9 +59,9 @@
 
 		<!-- Section 0: Presentation -->
 		<section class="w-full h-screen relative overflow-hidden flex flex-col items-center justify-center gap-4 p-4">
-			<img class="eucalyptus w-2/4 self-end absolute -top-14 -right-14" src="./resources/eucalyptus.webp"
+			<img class="eucalyptus w-64 self-end absolute -top-14 -right-14" src="./resources/eucalyptus.webp"
 				alt="eucalyptus">
-			<img class="w-2/4 self-start absolute -left-14 -bottom-20 rotate-45" src="./resources/eucalyptus.webp"
+			<img class="w-48 self-start absolute -left-14 -bottom-20 rotate-45" src="./resources/eucalyptus.webp"
 				alt="eucalyptus">
 			<h1 class="dancing-script-700 text-8xl text-center">Andrea & Marco</h1>
 			<p class="font-bold text-xl">08/09/2024</p>
