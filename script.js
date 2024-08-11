@@ -1,5 +1,5 @@
 // Establece la fecha objetivo para el conteo regresivo (formato: año, mes - 1, día, hora, minuto, segundo)
-var targetDate = new Date(2024, 10, 9, 15, 0, 0);
+var targetDate = new Date(2024, 8, 8, 15, 0, 0);
 
 function getTimeRemaining(endTime) {
     var currentTime = new Date();
