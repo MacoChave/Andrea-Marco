@@ -27,7 +27,7 @@ function updateCountdown() {
         let daySpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.days}</span>`
         let hoursSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.hours}</span>`
         let minSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.minutes}</span>`
-        let secSpan = `<span class="p-2 font-mono text-gray-200" style="background: #CFB53B;">${timeRemaining.seconds}</span>`
+        let secSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.seconds}</span>`
 
         document.getElementById('countdown').innerHTML = `${daySpan} ${hoursSpan} ${minSpan} ${secSpan}`
     }
