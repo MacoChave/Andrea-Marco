@@ -29,7 +29,7 @@ function updateCountdown() {
         let minSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.minutes}</span>`
         let secSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.seconds}</span>`
 
-        document.getElementById('countdown').innerHTML = `${daySpan} ${hoursSpan} ${minSpan} ${secSpan}`
+        document.getElementById('countdown').innerHTML = `${daySpan} dias ${hoursSpan} hrs ${minSpan} min ${secSpan} seg`
     }
 }
 
