@@ -24,12 +24,28 @@ function updateCountdown() {
         clearInterval(countdownInterval);
         document.getElementById('countdown').innerHTML = '¡El evento empezó!';
     } else {
-        let daySpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.days}</span>`
-        let hoursSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.hours}</span>`
-        let minSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.minutes}</span>`
-        let secSpan = `<span class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.seconds}</span>`
+        let daySpan = `<p class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.days}</p>`
+        let hoursSpan = `<p class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.hours}</p>`
+        let minSpan = `<p class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.minutes}</p>`
+        let secSpan = `<p class="p-2 font-mono text-gray-800" style="background: #CFB53B;">${timeRemaining.seconds}</p>`
 
-        document.getElementById('countdown').innerHTML = `${daySpan} dias ${hoursSpan} hrs ${minSpan} min ${secSpan} seg`
+        document.getElementById('countdown').innerHTML = `
+            <div class="flex flex-col place-columns-center place-items-center">
+                <p class="text-xl">${daySpan}</p>
+                <p class="text-xs">Dias</p>
+            </div>
+            <div class="flex flex-col place-columns-center place-items-center">
+                <p class="text-xl">${hoursSpan}</p>
+                <p class="text-xs">Hrs</p>
+            </div>
+            <div class="flex flex-col place-columns-center place-items-center">
+                <p class="text-xl">${minSpan}</p>
+                <p class="text-xs">Min</p>
+            </div>
+            <div class="flex flex-col place-columns-center place-items-center">
+                <p class="text-xl">${secSpan}</p>
+                <p class="text-xs">Seg</p>
+            </div>`
     }
 }
 
