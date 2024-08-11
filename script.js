@@ -24,10 +24,10 @@ function updateCountdown() {
         clearInterval(countdownInterval);
         document.getElementById('countdown').innerHTML = '¡El evento empezó!';
     } else {
-        let daySpan = `<span class="p-2 font-mono bg-gray-800 text-gray-200">${timeRemaining.days}</span>`
-        let hoursSpan = `<span class="p-2 font-mono bg-gray-800 text-gray-200">${timeRemaining.hours}</span>`
-        let minSpan = `<span class="p-2 font-mono bg-gray-800 text-gray-200">${timeRemaining.minutes}</span>`
-        let secSpan = `<span class="p-2 font-mono bg-gray-800 text-gray-200">${timeRemaining.seconds}</span>`
+        let daySpan = `<span class="p-2 font-mono text-gray-800" style="color='#CFB53B'">${timeRemaining.days}</span>`
+        let hoursSpan = `<span class="p-2 font-mono text-gray-800" style="color='#CFB53B'">${timeRemaining.hours}</span>`
+        let minSpan = `<span class="p-2 font-mono text-gray-800" style="color='#CFB53B'">${timeRemaining.minutes}</span>`
+        let secSpan = `<span class="p-2 font-mono text-gray-200" style="color='#CFB53B'">${timeRemaining.seconds}</span>`
 
         document.getElementById('countdown').innerHTML = `${daySpan} ${hoursSpan} ${minSpan} ${secSpan}`
     }
