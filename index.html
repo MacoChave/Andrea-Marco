@@ -40,30 +40,32 @@
 	<script src="./script.js"></script>
 </head>
 
-<body class="bg-gray-50 text-gray-800 dark:bg-zinc-800 dark:text-gray-200 overflow-x-hidden">
+<body class="bg-gray-50 text-gray-800 dark:bg-zinc-800 dark:text-gray-200 scroll-smoth overflow-x-hidden" >
 	<!-- Header -->
-	<header class="w-full h-screen flex flex-col items-center justify-center gap-4 p-4">
-		<img class="eucalyptus self-end w-60 absolute top-0 -right-10" style="z-index: -10;" src="./resources/eucalyptus.webp" alt="eucalyptus">
-		<q class="dancing-script-700 text-2xl text-center max-w-screen-sm mt-64" style="color:#CFB53B">
-			Más valen dos que uno, porque obtienen más fruto de su esfuerzo. ¡Ay del
-			que cae y no tiene quien lo levante!
+	<header class="w-full h-screen flex flex-col items-center justify-center gap-4 p-4 overflow-hidden">
+		<img class="eucalyptus w-60 absolute top-0 self-end" style="z-index: -10;" src="./resources/eucalyptus.webp"
+			alt="eucalyptus" />
+		<q class="dancing-script-700 text-2xl text-center max-w-screen-sm" style="color:#CFB53B">
+			Más valen dos que uno, porque obtienen más fruto de su esfuerzo.
+			¡Ay del que cae y no tiene quien lo levante!
 		</q>
 		<p class="text-sm opacity-50">Eclesiastés 4:9-10</p>
-		<img class="header__logo w-72 -my-16" src="./resources/Wedding-rings.webp" alt="Wedding rings" />
+		<img class="header__logo w-72 -my-8" src="./resources/Wedding-rings.webp" alt="Wedding rings" />
 		<p class="font-bold text-xl">Nuestar boda civil</p>
 		<div id="countdown" class="flex flex-row gap-4"></div>
 	</header>
 
 	<!-- Main -->
 	<main class="flex flex-col gap-20">
-
 		<!-- Section 0: Presentation -->
 		<section class="w-full h-screen relative overflow-hidden flex flex-col items-center justify-center gap-4 p-4">
-			<img class="eucalyptus w-64 self-end absolute -top-14 -right-20" src="./resources/eucalyptus.webp"
-			alt="eucalyptus">
+			<img class="eucalyptus w-64 self-end absolute -top-14 -right-14" src="./resources/eucalyptus.webp"
+				alt="eucalyptus" style="z-index: -10;" />
 			<img class="w-48 self-start absolute -left-14 -bottom-20 rotate-45" src="./resources/eucalyptus.webp"
-			alt="eucalyptus">
-			<h1 class="dancing-script-700 text-8xl text-center" style="color:#CFB53B">Andrea & Marco</h1>
+				alt="eucalyptus" style="z-index: -10;" />
+			<h1 class="dancing-script-700 text-8xl text-center" style="color:#CFB53B">
+				Andrea & Marco
+			</h1>
 			<img class="header__logo w-20" src="./resources/code_civil.svg" alt="Code civil engineering" />
 			<p class="font-bold text-xl">08/09/2024</p>
 		</section>
@@ -71,8 +73,12 @@
 		<!-- Section 1: Invitation details -->
 		<section id="preambulo-invitation" class="flex flex-col items-center gap-2 px-8">
 			<img class="max-w-72" src="./resources/pairs-wedding.webp" alt="Pairs wedding">
-			<p class="text-center">Les invitamos cordialmente a la celebración de</p>
-			<p class="dancing-script-700 text-4xl" style="color:#CFB53B">Nuestra boda civil</p>
+			<p class="text-center">
+				Les invitamos cordialmente a la celebración de
+			</p>
+			<p class="dancing-script-700 text-4xl" style="color:#CFB53B">
+				Nuestra boda civil
+			</p>
 		</section>
 
 		<!-- Section 3: Invitation date -->
@@ -87,15 +93,19 @@
 		</section>
 
 		<!-- Section 4: Invitation place -->
-		<section id="lugar-invitation" class="relative flex flex-col items-center gap-8 px-8">
-			<img class="eucalyptus w-64 self-end absolute -top-14 -right-24" style="z-index: -10;"
-				src="./resources/eucalyptus.webp" alt="eucalyptus">
+		<section id="lugar-invitation" class="relative overflow-hidden flex flex-col items-center gap-8 px-8">
+			<img class="eucalyptus w-64 self-end absolute -top-14 -right-14" style="z-index: -10;"
+				src="./resources/eucalyptus.webp" alt="eucalyptus" />
 			<img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/map-marker--v2.png"
 				alt="map-marker--v2" />
-			<p class="dancing-script-700 text-4xl" style="color:#CFB53B">Ceremonia</p>
+			<p class="dancing-script-700 text-4xl" style="color:#CFB53B">
+				Ceremonia
+			</p>
 			<div>
 				<div class="flex flex-col items-center gap-2">
-					<p class="text-md text-center">Centro Cultural Paseo de los Campeones</p>
+					<p class="text-md text-center">
+						Centro Cultural Paseo de los Campeones
+					</p>
 					<p class="text-sm">Hora: <span>11:00 AM</span></p>
 					<a class="border-2 border-solid border-stone-700 px-4 py-2 m-2 hover:bg-zinc-700 hover:text-gray-200"
 						href="https://www.google.com.mx/maps/place/Centro+Cultural+Paseo+de+los+Campeones/@14.6552466,-90.5717482,21z/data=!4m6!3m5!1s0x8589a1a8a78cfb89:0x36167cfaf3106e8d!8m2!3d14.6552654!4d-90.571769!16s%2Fg%2F11qpl7_r10?entry=ttu"
@@ -106,15 +116,15 @@
 
 		<!-- Sección 5: Invitatino gifts -->
 		<section id="gifts-invitation" class="relative overflow-hidden flex flex-col items-center gap-8 px-8">
-			<img class="w-48 self-start absolute -left-20 -bottom-14 rotate-45" style="z-index: -10;" src="./resources/eucalyptus.webp"
-				alt="eucalyptus">
+			<img class="w-48 self-start absolute -left-20 -bottom-14 rotate-45" style="z-index: -10;"
+				src="./resources/eucalyptus.webp" alt="eucalyptus" />
 			<img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/gift.png" alt="gift" />
 			<text class="dancing-script-700 text-4xl" style="color:#CFB53B">Sugerencias de regalo</text>
 			<div class="grid grid-cols-1 gap-10 md:grid-cols-2">
 				<div class="flex flex-col items-center gap-2">
 					<div class="flex flex-col place-content-center place-items-center gap-2">
 						<img class="w-20" src="https://cemacogt.vtexassets.com/arquivos/logoCortoMobile.png"
-							alt="Cemaco Logo">
+							alt="Cemaco Logo" />
 						<p class="text-xs">* Indicar que es para la boda</p>
 					</div>
 					<a class="border-2 border-solid border-stone-700 px-4 py-2 m-2 hover:bg-zinc-700 hover:text-gray-200"
@@ -122,13 +132,16 @@
 				</div>
 				<div class="flex flex-col items-center gap-2">
 					<p class="text-center max-w-screen-sm">
-						Su asistencia a nuestra boda será regalo suficiente. Pero si desean
-						apoyarnos para comprar nuestra casa, les dejamos los datos de nuestra
-						cuenta bancaria:
+						Su asistencia a nuestra boda será regalo suficiente.
+						Pero si desean apoyarnos para comprar nuestra casa,
+						les dejamos los datos de nuestra cuenta bancaria:
 					</p>
 					<p class="text-center text-xl font-bold">BANRURAL</p>
 					<p class="text-center">Cuenta de ahorro:</p>
-					<p class="text-center text-xl">Andrea Susana Casado Fernández - <span>4237131303</span></p>
+					<p class="text-center text-xl">
+						Andrea Susana Casado Fernández -
+						<span>4237131303</span>
+					</p>
 				</div>
 			</div>
 		</section>
@@ -136,7 +149,9 @@
 		<!-- Section 7: Invitation confirmation -->
 		<section id="confirmar-invitation" class="flex flex-col items-center gap-8 px-8">
 			<img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/paper-plane.png" alt="paper-plane" />
-			<p class="dancing-script-700 text-4xl" style="color:#CFB53B">Confirmar asistencia</p>
+			<p class="dancing-script-700 text-4xl" style="color:#CFB53B">
+				Confirmar asistencia
+			</p>
 			<div class="grid grid-cols-1 gap-10 md:grid-cols-2">
 				<div class="flex flex-col items-center gap-2">
 					<img width="60" height="60" src="https://img.icons8.com/emoji/60/person-with-veil.png"
@@ -156,8 +171,12 @@
 	<!-- Footer -->
 	<footer class="flex flex-col justify-center items-center gap-2 py-10 text-center text-gray-200 h-60 px-4"
 		style="background: #CFB53B;">
-		<p class="text-gray-800">Los mejores momentos de la vida merecen ser compartidos</p>
-		<h3 class="dancing-script-400 text-4xl text-gray-500">¡Gracias por acompañarnos!</h3>
+		<p class="text-gray-800">
+			Los mejores momentos de la vida merecen ser compartidos
+		</p>
+		<h3 class="dancing-script-400 text-4xl text-gray-500">
+			¡Gracias por acompañarnos!
+		</h3>
 	</footer>
 </body>
 
